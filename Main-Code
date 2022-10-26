@@ -1,0 +1,131 @@
+while True:
+
+
+    import productlist
+
+    class PriceList:
+        def __init__(self, savings, catalogue):
+            self.savings = savings
+            self.list = catalogue
+
+
+        def couponlist(self, savings, catalogue):
+            for item in catalogue:
+                total = catalogue.get(item) * savings
+                print(item + " - " + str(round(total, 2)))
+
+
+
+
+
+
+    try:
+
+        discount = float(input("Enter the discount percentage amount between 1-100 (i.e. '20','15', etc) → "))
+        discount1 = abs(abs(discount) / 100 - 1)
+        if discount > 100:
+            print("Your discount was greater than 100 so you will get weird results now.")
+        if discount < 0:
+            print("Your discount was less than zero, how does that even work? I converted it to a positive integer and iputted it for you.")
+
+
+
+
+
+
+        product = PriceList(discount1, productlist.perfectaminotablets150)
+
+
+        print(product.couponlist(discount1, productlist.perfectaminotablets150))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminotablets300))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminotablets600))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminopowder30))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminopowder60))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminopowder120))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoelectrolytes50))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoelectrolytes120))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminopowermeal))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminobars))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoredsandgreens))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminomulti))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminodigest))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminosleep))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminocalm))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoomega))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoorgan))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoprobiotic))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminorelief))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoimmune))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminoh2))
+
+        print("---")
+
+        print(product.couponlist(discount1, productlist.perfectaminogetlean))
+
+
+
+
+    except ValueError:
+        print("Oops, that wasn't a valid number! Let's try that again")
+
+
