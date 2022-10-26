@@ -1,0 +1,149 @@
+
+perfectaminospecial = {}
+
+
+perfectaminotablets150 = {
+    "PA150-1": 43.95,
+    "PA150-3": 126.58,
+    "PA150-6": 242.60,
+    "PA150-12": 464.11
+}
+
+perfectaminotablets300 = {
+    "PA300-1": 79.95,
+    "PA300-3": 227.86,
+    "PA300-6": 431.73,
+    "PA300-12": 809
+}
+
+perfectaminotablets600 = {
+    "PA600-1": 149.95,
+    "PA600-3": 427.36,
+    "PA600-6": 789
+}
+
+
+perfectaminopowder30 = {
+    "PA30-1": 43.95,
+    "PA30-3": 126.58,
+    "PA30-6": 242.60,
+    "PA30-12": 464.11
+}
+
+perfectaminopowder60 = {
+    "PA60-1": 79.95,
+    "PA60-3": 227.86,
+    "PA60-6": 431.73,
+    "PA60-12": 809
+}
+
+perfectaminopowder120 = {
+    "PA120-1": 149.95,
+    "PA120-3": 427.36,
+    "PA120-6": 789
+}
+
+perfectaminoelectrolytes50 = {
+    "E50-1": 39.95,
+    "E50-3": 115.06,
+    "E50-6": 220.52,
+    "E50-12": 421.87,
+}
+
+perfectaminoelectrolytes120 = {
+    "E120-1": 79.95,
+    "E120-3": 230.26,
+    "E120-6": 441.32,
+    "E120-12": 844.27
+}
+
+perfectaminopowermeal = {
+    "PM-1": 64.95,
+    "PM-3": 185.11,
+    "PM-6": 350.73,
+    "PM-12": 662.49,
+    "PM-BOX": 49.95
+}
+
+perfectaminobars = {
+    "BAR-1": 48.95,
+    "BAR-3": 139.51,
+    "BAR-6": 264.33,
+    "BAR-12": 499.29,
+    "BARVARIETY-4": 170.81,
+    "BARVARIETY-8": 323.64
+}
+
+perfectaminoredsandgreens = {
+    "REDS/GREENS-1": 51.50,
+    "REDS/GREENS-2": 98.88,
+    "REDS/GREENS-3": 142.14,
+    "REDS/GREENS-6": 268.83,
+    "REDS/GREENS-BOX": 32.95
+}
+
+perfectaminomulti = {
+    "MULTI-1": 59.50,
+    "MULTI-3": 169.58,
+    "MULTI-6": 321.30
+}
+
+perfectaminodigest = {
+    "DIGEST-1": 37.50,
+    "DIGEST-2": 69,
+    "DIGEST-3": 95.63
+}
+
+perfectaminosleep = {
+    "SLEEP-1": 41.50,
+    "SLEEP-3": 112.05,
+    "SLEEP-6": 211.65
+}
+
+perfectaminocalm = {
+    "CALM-1": 24.95
+}
+
+perfectaminoomega = {
+    "OMEGA-1": 47.50,
+    "OMEGA-2": 90.25,
+    "OMEGA-3": 128.25
+}
+
+perfectaminoorgan = {
+    "ORGAN-1": 41.50,
+    "ORGAN-3": 118.28,
+    "ORGAN-6": 224.10
+}
+
+perfectaminoprobiotic = {
+    "PROB-1": 37.50,
+    "PROB-2": 72,
+    "PROB-3": 103.50,
+    "PROB-6": 195.75
+}
+
+perfectaminorelief = {
+    "RELIEF-1": 41.50,
+    "RELIEF-3": 118.28,
+    "RELIEF-6": 224.10,
+    "RELIEF-12": 423.30
+}
+
+perfectaminoimmune = {
+    "IMMUNE-1": 26.50,
+    "IMMUNE-2": 48.76,
+    "IMMUNE-3": 67.58
+}
+
+perfectaminoh2 = {
+    "H2-1": 59.95,
+    "H2-3": 170.86,
+    "H2-6": 323.73
+}
+
+perfectaminogetlean = {
+    "LEAN-1": 37.95,
+    "LEAN-2": 72.11,
+    "LEAN-3": 102.47
+}
